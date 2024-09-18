@@ -15,5 +15,13 @@
       <jdbc-url>jdbc:redshift://book-dppr-redshift.cevmwok2igkw.eu-central-1.redshift.amazonaws.com:5439/db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Atlas Free" uuid="0add1fe2-937e-443e-bc63-141f37f56f0f">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://atlas-sql-66e9197721ddfc696442dd23-qsiyo.a.query.mongodb.net/sample_airbnb?ssl=true&amp;authSource=admin</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
